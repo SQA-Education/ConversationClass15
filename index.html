@@ -113,9 +113,11 @@ input:focus,select:focus{outline:none;border-color:#00838F}
             <input type="text" id="studentName" placeholder="Enter your name...">
             <label>Your Class</label>
             <select id="studentClass">
-                <option value="">Select your class...</option>
-                <option value="3094-MW-9AM">3094 - Mon/Wed 9:00 AM (Laura)</option>
-            </select>
+<option value="">-- Select your class --</option>
+<optgroup label="Laura Ebel">
+<option value="3094" data-teacher="Laura Ebel">3094 - Mon/Wed 9:00 AM (Laura)</option>
+</optgroup>
+</select>
             <button class="btn" onclick="startQuiz()">Start Final Review</button>
         </div>
     </div>
